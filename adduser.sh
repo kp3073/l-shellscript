@@ -17,7 +17,7 @@ fi
 
 #Store first argument as username
 USER_NAME="${1}"
-echo $USER_NAME
+
 
 #if there is more then one comment
 shift
