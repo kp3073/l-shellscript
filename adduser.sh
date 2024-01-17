@@ -22,7 +22,7 @@ USER_NAME="${1}"
 #if there is more then one comment
 shift
 COMMENT="${@}"
-echo $COMMENT
+
 
 #create a password
 PASSWORD=$(date +%s%N)
