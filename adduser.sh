@@ -28,7 +28,7 @@ echo $COMMENT
 PASSWORD=$(date +%s%N)
 
 #create a USER
-useradd -c $COMMENT -m $USER_NAME
+useradd -c "${COMMENT}" -m $USER_NAME
 
 #check if user is successfully created or not
 if [[ $? -ne 0 ]]
