@@ -39,7 +39,7 @@ fi
 
 
 #set password for the user
-passwd $PASSWORD $USER_NAME
+echo $PASSWORD | passwd --stdin $USER_NAME
 
 #check if password is successfully set or not
 if [[ $? -ne 0 ]]
